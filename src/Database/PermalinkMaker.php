@@ -131,7 +131,7 @@ class PermalinkMaker
             return (is_bool($value)) ? (int)$value : $value;
         }, (array)$from);
 
-        return implode($sourceStrings, ' ');
+        return implode(' ', $sourceStrings);
     }
 
     /**
